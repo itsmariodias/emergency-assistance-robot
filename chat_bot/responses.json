@@ -1,0 +1,47 @@
+{"response": [
+        {"tag": "yes_problem",
+         "responses": "What seems to be the problem?",
+         "context_set": "yes_problem"
+        },
+        {"tag": "no_problem",
+         "responses": "Are you sure you don't need help? Please say goodbye to confirm.",
+         "context_set": "no_problem"
+        },
+        {"tag": "call",
+         "responses": "I will attempt calling your chosen emergency contacts. Should I proceed?",
+         "context_set": "calling"
+        },
+        {"tag": "yes_call",
+         "responses": "Attempting to reach chosen contacts. They will be contacted soon.",
+         "context_set": "servicing"
+        },
+        {"tag": "leg_pain",
+         "responses": "I suggest lying down and resting. Would you like some cream for the pain?",
+         "context_set": "servicing"
+        },
+        {"tag": "cut",
+         "responses": "I highly recommend putting a band-aid. Would you like one?",
+         "context_set": "servicing"
+        },
+        {"tag": "burn",
+         "responses": "I highly recommend applying cold water to burnt area. I have vaseline if you wish to apply it.",
+         "context_set": "servicing"
+        },
+        {"tag": "stomach_pain",
+         "responses": "Try drinking some water first. If you need I have antacid tablets to help with acidity.",
+         "context_set": "servicing"
+        },
+        {"tag": "bite",
+         "responses": "Remove the stinger if present and apply some ice on the area. I have some lotion if you would like it.",
+         "context_set": "servicing"
+        },
+        {"tag": "cancel",
+         "responses": "Something wrong?",
+         "context_set": "going_back"
+        },
+        {"tag": "end",
+         "responses": "Glad I could be of service! Goodbye.",
+         "context_set": "end"
+        }
+   ]
+}

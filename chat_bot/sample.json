@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "yes",
+         "patterns": ["yes", "yes please", "yes thank you", "sure", "yup", "ya", "of course", "totally", 
+            "certainly", "definitely", "yeah", "affirmative", "obviously", "yep","aye","yea","affirmative","accept",
+            "surely","ja","sirree","oui","yah","yeh","all right","si","of course","positive","flunky","okay","ye",
+            "yessum","rather","yis","agree","good-oh","siree","by all means","da","uh-huh","absolutely","you bet",
+            "open-ended","agreeable","nod","affirm","i","amen","nay","positively","yer","please","mu", "yea–sayer","ay","yus",
+            "yea", "definitely","yay","idea","maybe","yes-man","be my guest!","OK",
+            "right","in the affirmative", "unequivocal","have no idea","yes, indeed","be my guest","no problem","yebo","fuck",
+            "I don’t see why not","polar","very much so","open question","acceptance","approve","may","sound", "naturally",
+            "affirmation","absotively","I’ll say"]
+        },
+        {"tag": "no",
+         "patterns": ["no", "nope", "nah", "not really", "don't need help", "negative", "nothing", "nay", "not needed"]
+        },
+        {"tag": "wait",
+         "patterns": ["wait", "stop", "cancel", "cancel that", "wait a minute", "one sec", "not so fast", "forget it", "go back", 
+            "thats wrong", "not wanted"]
+        },
+        {"tag": "call_need",
+         "patterns": ["call someone", "call emergency contact", "emergency", "go to hospital", 
+            "badly hurt need help", "having a stroke", "can't move legs", "can't move body", 
+            "legs not working", "stroke", "having stroke", "can't see", "body failing",
+            "having heart attack", "chest paining", "choking", 
+            "shock", "heart attack", "cant breathe", "fallen", "fell down", "tripped", 
+            "fell down stairs", "broke back", "broke leg", "can't get up", "fall", "knee broken"]
+        },
+        {"tag": "cream_need",
+         "patterns": ["leg paining.", "hurt leg", "stubbed toe", "sprain leg", "hit leg", "toes hurt", 
+            "leg paining", "sprain on leg", "leg pain", "pain cream", "muscle relief pain", "move cream", "need pain relief cream",
+            "need pain cream", "leg hurts", "ankle hurts", "shoulder pain", "back pain", "need balm", "muscular pain"]
+        },
+        {"tag": "bandaid_need",
+         "patterns": ["cut leg", "cut hand", "hand bleeding", "cut finger", " bleeding", "i cut myself",
+            "bandaid", "bandage", "need bandaid", "need some bandages", "please give some bandages"]
+        },
+        {"tag": "vaseline_need",
+         "patterns": ["vaseline", "petroleum jelly", "need vasaline", "need some moisturizer", "please give some vaseline", "i burned myself",
+            "burnt hand", "got burned", "spilled boiling water on body", "burnt by boiling water"]
+        },
+        {"tag": "antacid_need",
+         "patterns": ["stomach paining", "acidity", "stomach upset", "vomit", "feel like vomitting", "vomitted"]
+        },
+        {"tag": "lotion_need",
+         "patterns": ["bee stung me", "insect bite", "stung by wasp", "insect bit me", "bee sting", "wasp sting", "ant bit me",
+            "lotion", "calamine lotion", "base lotion", "insect bite cream", "please give calamine lotion"]
+        },
+        {"tag": "service_done",
+         "patterns": ["I am satisfied with your service", "you can go", "thanks", "thank you", "thank you very much"]
+        }
+    ]
+}
+
