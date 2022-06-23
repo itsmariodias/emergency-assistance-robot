@@ -1,3 +1,25 @@
+"""
+Original code given by:
+Author: Evan Juras
+Date: 10/27/19
+Description: 
+This program uses a TensorFlow Lite model to perform object detection on a live webcam
+feed. It draws boxes and scores around the objects of interest in each frame from the
+webcam. To improve FPS, the webcam object runs in a separate thread from the main program.
+This script will work with either a Picamera or regular USB webcam.
+
+This code is based off the TensorFlow Lite image classification example at:
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/examples/python/label_image.py
+
+I added my own method of drawing boxes and labels using OpenCV.
+
+Modification:
+Author: Mario Dias
+Date: 19/03/2021
+Description:
+Modified the above code into a callable object and adjusted it to output a red circle in the center as well.
+"""
+
 #!/usr/bin/env python
 
 import cv2
